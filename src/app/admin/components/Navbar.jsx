@@ -1,20 +1,19 @@
 import React from "react";
 import Link from "next/link";
-
+import { RiBarChartHorizontalFill } from "react-icons/ri";
 const Navbar = () => {
   return (
     <div>
       <nav className="main-header navbar navbar-expand navbar-white navbar-light">
-        <ul className="navbar-nav">
-           
-          <li className="nav-item d-none d-sm-inline-block">
-            <Link href="index3.html" className="nav-link">
-              Home
-            </Link>
-          </li>
-          <li className="nav-item d-none d-sm-inline-block">
-            <Link href="#" className="nav-link">
-              Contact
+      <ul className="navbar-nav">
+          <li className="nav-item">
+            <Link
+              className="nav-link "
+              data-widget="pushmenu"
+              href=""
+              role="button"
+            >
+              <RiBarChartHorizontalFill className="!text-4xl text-black" />
             </Link>
           </li>
         </ul>
