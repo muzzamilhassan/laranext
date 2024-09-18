@@ -1,17 +1,6 @@
 "use client"; // Ensure this component is rendered on the client-side
 
 import localFont from "next/font/local";
-import { useEffect } from "react";
-
-// // Import CSS files globally
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import "tempusdominus-bootstrap-4/build/css/tempusdominus-bootstrap-4.min.css";
-// import "icheck-bootstrap/icheck-bootstrap.min.css";
-// import "jqvmap/dist/jqvmap.min.css";
-// import "admin-lte/dist/css/adminlte.min.css";
-// import "overlayscrollbars/css/OverlayScrollbars.min.css";
-// import "daterangepicker/daterangepicker.css";
-// import "summernote/dist/summernote-bs4.min.css";
 
 // Local font configuration
 const geistSans = localFont({
